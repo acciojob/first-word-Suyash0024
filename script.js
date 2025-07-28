@@ -1,5 +1,5 @@
-function firstWord(s){
-	str = str.trim(); // remove leading/trailing spaces
+function firstWord(str) {
+  str = str.trim(); // remove leading/trailing spaces
   const spaceIndex = str.indexOf(" ");
   if (spaceIndex === -1) {
     return str;
@@ -11,4 +11,3 @@ function firstWord(s){
 
 const s = prompt("Enter String:");
 alert(firstWord(s));
-
